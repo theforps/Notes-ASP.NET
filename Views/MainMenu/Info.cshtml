@@ -1,0 +1,30 @@
+﻿@model WebNotes.Models.Note
+
+@{
+    ViewData["Title"] = "Info";
+}
+
+<button class="backButton">
+        <a class="text-white" asp-action="Main">Назад</a>
+</button>
+
+<form method="post" >
+    <input asp-for="Id" hidden/>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input class="backButton text-white" style="float: right;" type="submit" asp-action="Info" value="Сохранить"/>
+    <input class="deleteButton" type="submit" value="Удалить" asp-action="Remove"/>
+    
+
+    <div>
+        <textarea asp-for="Title" class="inputHeader" type="text" id="header" placeholder="Введите заголовок">@Model.Title</textarea>
+        <span asp-validation-for="Title" class="danger" style="display:block"></span>
+        <span asp-validation-for="Description" class="danger" style="display:block"></span>
+        <textarea asp-for="Description" class="inputText" type="text" id="description" placeholder="Введите текст">@Model.Description</textarea>
+    </div>
+
+</form>
+
+@section Scripts {
+    @{ <partial name ="_ValidationScriptsPArtial"/>}
+}
+
