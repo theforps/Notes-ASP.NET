@@ -22,4 +22,8 @@
     <None Include="wwwroot\image\dobavit.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AppData\" />
+  </ItemGroup>
+
 </Project>

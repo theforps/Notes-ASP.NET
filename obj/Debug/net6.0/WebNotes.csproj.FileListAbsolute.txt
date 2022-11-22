@@ -520,3 +520,8 @@ F:\WebNotes\obj\Debug\net6.0\refint\WebNotes.dll
 F:\WebNotes\obj\Debug\net6.0\WebNotes.pdb
 F:\WebNotes\obj\Debug\net6.0\WebNotes.genruntimeconfig.cache
 F:\WebNotes\obj\Debug\net6.0\ref\WebNotes.dll
+C:\Users\thefo\Desktop\vs project\WebNotes\obj\Debug\net6.0\staticwebassets\msbuild.WebNotes.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\thefo\Desktop\vs project\WebNotes\obj\Debug\net6.0\staticwebassets\msbuild.build.WebNotes.props
+C:\Users\thefo\Desktop\vs project\WebNotes\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebNotes.props
+C:\Users\thefo\Desktop\vs project\WebNotes\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebNotes.props
+C:\Users\thefo\Desktop\vs project\WebNotes\obj\Debug\net6.0\staticwebassets.pack.json
