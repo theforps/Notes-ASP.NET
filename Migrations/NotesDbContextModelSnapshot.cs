@@ -22,6 +22,27 @@ namespace WebNotes.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("WebNotes.Models.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Customer");
+                });
+
             modelBuilder.Entity("WebNotes.Models.Note", b =>
                 {
                     b.Property<int>("Id")
@@ -35,15 +56,33 @@ namespace WebNotes.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
+                        .HasMaxLength(5000)
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)");
+
+                    b.Property<int>("customerId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("customerId");
+
                     b.ToTable("Notes");
+                });
+
+            modelBuilder.Entity("WebNotes.Models.Note", b =>
+                {
+                    b.HasOne("WebNotes.Models.Customer", "Customer")
+                        .WithMany()
+                        .HasForeignKey("customerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
                 });
 #pragma warning restore 612, 618
         }
