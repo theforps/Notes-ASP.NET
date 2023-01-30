@@ -14,6 +14,9 @@ namespace WebNotes.Controllers
 
         public IActionResult Grid()
         {
+            if (WC.Id == null || WC.Id == 0)
+                return RedirectToAction("Main","LoginScreen");
+
             var notes = _db.Notes.OrderByDescending(x => x.CreatedDate).Where(x => x.UserId == WC.Id);
 
             return View(notes);
@@ -22,6 +25,9 @@ namespace WebNotes.Controllers
         [HttpGet]
         public IActionResult Upsert(int? id)
         {
+            if (WC.Id == null || WC.Id == 0)
+                return RedirectToAction("Main", "LoginScreen");
+
             var obj = new Note();
 
             if (id == null)
@@ -55,6 +61,7 @@ namespace WebNotes.Controllers
                 else
                 {
                     note.CreatedDate = DateTime.Now;
+                    note.UserId = WC.Id;
                     _db.Notes.Update(note);
                 }
                 _db.SaveChanges();
@@ -77,6 +84,13 @@ namespace WebNotes.Controllers
             }
 
             return RedirectToAction("Grid");
+        }
+
+        public IActionResult Exit()
+        {
+            WC.Id = 0;
+
+            return RedirectToAction("Main", "LoginScreen");
         }
     }
 }

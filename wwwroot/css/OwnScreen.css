@@ -98,12 +98,10 @@
 }
 
 .input-note {
-    height:min-content;
     resize: none;
     background-color: #f5f0e1;
     border-radius: 20px;
     padding: 20px;
-    margin: 10px 0px;
     font-size: 30px;
     font-family: 'Comic Sans MS';
     color: #1e3d59;
@@ -133,9 +131,6 @@
 .scs {
     color: #f5f0e1;
     background-color: green;
-    margin: 10px;
-    padding: 20px 30px;
-    
 }
 
 .remove {
