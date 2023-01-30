@@ -14,7 +14,7 @@ namespace WebNotes.Controllers
 
         public IActionResult Grid()
         {
-            var notes = _db.Notes;
+            var notes = _db.Notes.OrderByDescending(x => x.CreatedDate).Where(x => x.UserId == WC.Id);
 
             return View(notes);
         }
@@ -24,38 +24,46 @@ namespace WebNotes.Controllers
         {
             var obj = new Note();
 
-            if (id == 0)
-                return NotFound();
-            else if (id == null)
+            if (id == null)
                 return View(obj);
+            else
+            {
+                if (id == 0)
+                    return NotFound();
 
-            obj = _db.Notes.Find(id);
+                obj = _db.Notes.Find(id);
 
-            return View(obj);
+                if (obj == null ) 
+                    return NotFound();
+
+                return View(obj);
+            }
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Upsert(Note note)
         {
             if (ModelState.IsValid)
             {
-                if (note.Id != 0) 
+                if (note.Id == 0) 
                 {
-                    _db.Notes.Update(note);
-                    _db.SaveChanges();
+                    note.CreatedDate= DateTime.Now;
+                    note.UserId= WC.Id;
+                    _db.Notes.Add(note);
                 }
                 else
                 {
-                    _db.Notes.Add(note);
-                    _db.SaveChanges();
+                    note.CreatedDate = DateTime.Now;
+                    _db.Notes.Update(note);
                 }
+                _db.SaveChanges();
                 return RedirectToAction("Grid");
             }
 
             return View(note);
         }
 
-        [HttpPost]
         public IActionResult Delete(int id)
         {
             var obj = _db.Notes.Find(id);

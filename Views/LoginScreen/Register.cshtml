@@ -1,7 +1,23 @@
-﻿
+﻿@model User
 @{
     ViewData["Title"] = "Register";
 }
 
-<h1>Register</h1>
+<form method="post" asp-action="Register">
+    <div class="page">
+        <nav class="header">
+            <h1 class="name">
+                Notes
+            </h1>
+        </nav>
+        <div class="d-block w-25 m-auto p-5">
+            <h1 class="alert-add-note text-center">Регистрация</h1>
+            <input asp-for="Login" maxlength="20" min="6" required type="text" class="w-100 m-1 user-data" placeholder="Введите логин"/>
+            <input asp-for="Password" type="text" required  maxlength="25" class="w-100 m-1 user-data" placeholder="Введите пароль"/>
+            <input asp-for="ConfirmPassword" type="text" required min="8" maxlength="25" class="w-100 m-1 user-data" placeholder="Повторите пароль" />
+            <input class="btn btn-secondary w-100 m-1" type="submit" value="Зарегистрироваться"/>
+            <a asp-action="Login" class="btn btn-outline-secondary w-100 m-1">Войти</a>
+        </div>
+    </div>
+</form>
 

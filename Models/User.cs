@@ -8,7 +8,7 @@ namespace WebNotes.Models
         public int Id { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        public string DateOfCreate { get; set; }
-        public IEnumerable<Note> Notes { get; set; }
+        public DateTime DateOfCreate { get; set; }
+        public string ConfirmPassword { get; set; }
     }
 }

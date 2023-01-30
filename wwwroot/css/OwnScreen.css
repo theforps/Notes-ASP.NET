@@ -98,6 +98,7 @@
 }
 
 .input-note {
+    height:min-content;
     resize: none;
     background-color: #f5f0e1;
     border-radius: 20px;
@@ -132,6 +133,9 @@
 .scs {
     color: #f5f0e1;
     background-color: green;
+    margin: 10px;
+    padding: 20px 30px;
+    
 }
 
 .remove {
@@ -141,4 +145,17 @@
 
 textarea:focus, input:focus {
     outline: none;
+}
+
+input {
+    text-align:center;
+    padding: 15px;
+    height: 40px;
+    border-radius: 10px;
+    color: #1e3d59;
+    background-color: #f5f0e1;
+    border: 1px #1e3d59 solid;
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    font-weight: 600;
 }

@@ -32,7 +32,7 @@ namespace WebNotes
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=CollectionOfNotes}/{action=Grid}/{id?}");
+                pattern: "{controller=LoginScreen}/{action=Main}/{id?}");
 
             app.Run();
         }
