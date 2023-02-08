@@ -17,7 +17,7 @@ namespace WebNotes.Controllers
             if (WC.Id == null || WC.Id == 0)
                 return RedirectToAction("Main","LoginScreen");
 
-            var notes = _db.Notes.OrderByDescending(x => x.CreatedDate).Where(x => x.UserId == WC.Id);
+            var notes = _db.Notes.OrderByDescending(x => x.CreatedDate).Where(x => x.User.Id == WC.Id);
 
             return View(notes);
         }
@@ -28,10 +28,14 @@ namespace WebNotes.Controllers
             if (WC.Id == null || WC.Id == 0)
                 return RedirectToAction("Main", "LoginScreen");
 
-            var obj = new Note();
+            var obj = new Note { 
+                User =  _db.Users.FirstOrDefault(x => x.Id == WC.Id)
+            };
 
             if (id == null)
+            {
                 return View(obj);
+            }
             else
             {
                 if (id == 0)
@@ -39,7 +43,7 @@ namespace WebNotes.Controllers
 
                 obj = _db.Notes.Find(id);
 
-                if (obj == null ) 
+                if (obj == null)
                     return NotFound();
 
                 return View(obj);
@@ -47,7 +51,6 @@ namespace WebNotes.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult Upsert(Note note)
         {
             if (ModelState.IsValid)
@@ -55,13 +58,15 @@ namespace WebNotes.Controllers
                 if (note.Id == 0) 
                 {
                     note.CreatedDate= DateTime.Now;
-                    note.UserId= WC.Id;
+                    note.User.Id = WC.Id;
+                    note.CountOfChanges += 1;
                     _db.Notes.Add(note);
                 }
                 else
                 {
                     note.CreatedDate = DateTime.Now;
-                    note.UserId = WC.Id;
+                    note.User.Id = WC.Id;
+                    note.CountOfChanges += 1;
                     _db.Notes.Update(note);
                 }
                 _db.SaveChanges();

@@ -16,6 +16,7 @@ namespace WebNotes.Controllers
 
         public IActionResult Main()
         {
+
             return View();
         }
 
