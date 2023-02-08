@@ -30,6 +30,9 @@ namespace WebNotes
                 app.UseHsts();
             }
 
+            Queries queries = new Queries();
+            queries.querie();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

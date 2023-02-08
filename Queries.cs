@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Logging;
 
 namespace WebNotes
 {
@@ -6,22 +7,36 @@ namespace WebNotes
     {
         public readonly string connectionString = "Server=OPERATOR;Database=Notes;Trusted_Connection=True;MultipleActiveResultSets=True";
 
-        public Queries()
+        public async Task querie()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                connection.OpenAsync();
-                SqlCommand command = new SqlCommand();
+                await connection.OpenAsync();
+                string sqlExpression = "";
 
-                //
-                command.CommandText = "CREATE TABLE Users (Id INT PRIMARY KEY IDENTITY, Age INT NOT NULL, Name NVARCHAR(100) NOT NULL)";
+                //1 создание таблиц
+                //sqlExpression =
+                //    "CREATE TABLE Users (Id int NOT NULL PRIMARY KEY, Login NVARCHAR(25) NOT NULL, Password NVARCHAR(50) NOT NULL, DateOfCreate DATETIME2);" +
+                //    "CREATE TABLE Notes (Id int NOT NULL PRIMARY KEY, Title NVARCHAR(250) NOT NULL, Description NVARCHAR(500), CreatedDate DATETIME2 NOT NULL, CountOfChanges int, UserId int FOREIGN KEY REFERENCES Users(Id));";
+
+                //2 добавление записей
+                //sqlExpression =
+                //    "INSERT INTO Users (Login, Password, DateOfCreate) Values ('testtest', '12345678', '2023-01-30');" +
+                //    "INSERT INTO Notes (Title, CreatedDate, UserId, CountOfChanges) Values ('testtest', '2023-01-30', 1, 2);";
+
+                //3 изменение таблиц
+                //sqlExpression =
+                //    "UPDATE Users SET Password = '84545454545' WHERE Id = 1;" +
+                //    "UPDATE Notes SET Title = 'Update Title' WHERE Id = 1;";
+
+                //4 удаление данных
+                //sqlExpression =
+                //    "DELETE FROM Notes WHERE Id = 5";
 
 
 
-
-
-                command.Connection = connection;
-                command.ExecuteNonQueryAsync();
+                SqlCommand command = new SqlCommand(sqlExpression, connection);
+                await command.ExecuteNonQueryAsync();
             }
         }
     }
