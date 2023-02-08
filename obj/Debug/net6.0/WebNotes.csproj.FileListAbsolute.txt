@@ -1063,3 +1063,9 @@ D:\Projects\C# projects\Own projects\WebNotes\obj\Debug\net6.0\WebNotes.genrunti
 D:\Projects\C# projects\Own projects\WebNotes\obj\Debug\net6.0\ref\WebNotes.dll
 D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\Projects\Visual Studio\Notes-ASP.NET\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Projects\C# projects\Own projects\WebNotes\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
