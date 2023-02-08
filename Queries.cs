@@ -1,5 +1,6 @@
 ﻿using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Logging;
+using System.Data;
 using System.Diagnostics;
 
 namespace WebNotes
@@ -10,10 +11,10 @@ namespace WebNotes
 
         public async Task querie()
         {
+            string sqlExpression = "";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 await connection.OpenAsync();
-                string sqlExpression = "";
 
                 //1 создание таблиц
                 //sqlExpression =
@@ -110,7 +111,7 @@ namespace WebNotes
                 //    "SELECT COUNT(Id), Login FROM Users GROUP BY Login HAVING COUNT(Id) > 1;" +
                 //    "SELECT COUNT(Id), Title FROM Notes GROUP BY Title HAVING COUNT(Id) > 0;";
 
-                SqlCommand command = new SqlCommand(sqlExpression, connection);            
+                SqlCommand command = new SqlCommand(sqlExpression, connection);
                 await command.ExecuteNonQueryAsync();
             }
         }
