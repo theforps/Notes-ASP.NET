@@ -7,7 +7,7 @@ namespace WebNotes
 {
     public class Queries
     {
-        public readonly string connectionString = "Server=OPERATOR;Database=Notes;Trusted_Connection=True;MultipleActiveResultSets=True";
+        public readonly string connectionString = "Server=THEFORPS;Database=Notes;Trusted_Connection=True;MultipleActiveResultSets=True";
 
         public async Task querie()
         {
@@ -62,13 +62,13 @@ namespace WebNotes
 
                 //10 запросы ко всем таблицам с использованием предиката LIKE
                 //sqlExpression =
-                //    "SELECT * FROM Notes WHERE Title Like '%test%';" +
-                //    "SELECT * FROM Users WHERE Login Like '%1234%';";
+                //    "SELECT Title FROM Notes WHERE Title Like '%test%';"
+                //+ "SELECT * FROM Users WHERE Login Like '%1234%';";
 
                 //11 запросы ко всем таблицам с использованием предиката IS [NOT] NULL
                 //sqlExpression =
-                //    "SELECT * FROM Notes WHERE Description IS NULL;" +
-                //    "SELECT * FROM Users WHERE Login IS NOT NULL;";
+                //"SELECT Id FROM Notes WHERE Description IS NULL;"
+                //+ "SELECT * FROM Users WHERE Login IS NOT NULL;";
 
                 //12 запросы ко всем таблицам с использованием агрегирующей функции COUNT(*)
                 //sqlExpression =
@@ -103,16 +103,38 @@ namespace WebNotes
 
                 //19 запросы ко всем таблицам с использованием GROUP BY (по одному и по нескольким полям)
                 //sqlExpression =
-                //    "SELECT Title FROM Notes WHERE CountOfChanges > 0 GROUP BY Title, Id;" +
-                //    "SELECT Login FROM Users WHERE Login = '12345678' GROUP BY Login;";
+                //"SELECT Title FROM Notes WHERE CountOfChanges > 0 GROUP BY Title, Id;" +
+                //"SELECT Login FROM Users WHERE Login = '12345678' GROUP BY Login;";
 
                 //20 запросы ко всем таблицам с использованием HAVING
                 //sqlExpression =
                 //    "SELECT COUNT(Id), Login FROM Users GROUP BY Login HAVING COUNT(Id) > 1;" +
                 //    "SELECT COUNT(Id), Title FROM Notes GROUP BY Title HAVING COUNT(Id) > 0;";
 
+                //SqlCommand command = new SqlCommand(sqlExpression, connection);
+                //await command.ExecuteNonQueryAsync();
+            }
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
                 SqlCommand command = new SqlCommand(sqlExpression, connection);
-                await command.ExecuteNonQueryAsync();
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.HasRows) // если есть данные
+                {
+                    // выводим названия столбцов
+                    Trace.WriteLine(reader.GetName(0));
+
+                    while (reader.Read()) // построчно считываем данные
+                    {
+                        object id = reader.GetValue(0);
+
+                        Trace.WriteLine(id);
+                    }
+                }
+
+                reader.Close();
             }
         }
     }
