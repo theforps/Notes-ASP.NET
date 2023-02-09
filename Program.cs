@@ -16,12 +16,6 @@ namespace WebNotes
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-                .AddCookie(options =>
-                {
-                    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/LoginScreen/Login");
-                });
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
