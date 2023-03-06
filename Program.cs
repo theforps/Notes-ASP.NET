@@ -3,7 +3,7 @@ using WebNotes.Data;
 
 namespace WebNotes
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
@@ -22,7 +22,10 @@ namespace WebNotes
             }
 
             Queries queries = new Queries();
-            queries.querie();
+            //await queries.querie();
+
+            Procedure procedures = new Procedure();
+            //procedures.procedure();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
