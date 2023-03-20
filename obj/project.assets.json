@@ -10069,11 +10069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C# projects\\Own projects\\WebNotes\\WebNotes.csproj",
+      "projectUniqueName": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
       "projectName": "WebNotes",
-      "projectPath": "D:\\Projects\\C# projects\\Own projects\\WebNotes\\WebNotes.csproj",
+      "projectPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
       "packagesPath": "C:\\Users\\thefo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\C# projects\\Own projects\\WebNotes\\obj\\",
+      "outputPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10148,7 +10148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
