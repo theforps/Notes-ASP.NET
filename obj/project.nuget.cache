@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Z2kv30MPPs+f/h7lbe9pIAKKkcXfpzPr3B+LzKG8v1LjmLDwJRy0j8B0Zt5s2piTr1g7tVMPlx1clSOaBBrWtQ==",
   "success": true,
   "projectFilePath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
+=======
+  "dgSpecHash": "echyffG2v5/vmkLAhS2imOWbb3S1aOB8pRfPBzSJzIYPlDTIgPvVyQ60oTmFIXYcFiswBS5lwDPrjtL/AdDyMg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\C#\\Notes-ASP.NET\\WebNotes.csproj",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
   "expectedPackageFiles": [
     "C:\\Users\\thefo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\thefo\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
