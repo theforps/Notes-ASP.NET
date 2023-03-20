@@ -9856,11 +9856,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
       "projectName": "WebNotes",
       "projectPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
       "packagesPath": "C:\\Users\\thefo\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\",
+=======
+      "projectUniqueName": "D:\\Projects\\C#\\Notes-ASP.NET\\WebNotes.csproj",
+      "projectName": "WebNotes",
+      "projectPath": "D:\\Projects\\C#\\Notes-ASP.NET\\WebNotes.csproj",
+      "packagesPath": "C:\\Users\\thefo\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\",
+>>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebNotes.Data;
 using WebNotes.Models;
 
@@ -51,21 +52,21 @@ namespace WebNotes.Controllers
         }
 
         [HttpPost]
-        public IActionResult Upsert(Note note)
+        public async Task<IActionResult> Upsert(Note note)
         {
-            if (ModelState.IsValid)
+            note.User = await _db.Users.FirstOrDefaultAsync(x => x.Id == WC.Id);
+
+            //if (ModelState.IsValid)
             {
                 if (note.Id == 0) 
                 {
                     note.CreatedDate= DateTime.Now;
-                    note.User.Id = WC.Id;
                     note.CountOfChanges += 1;
                     _db.Notes.Add(note);
                 }
                 else
                 {
                     note.CreatedDate = DateTime.Now;
-                    note.User.Id = WC.Id;
                     note.CountOfChanges += 1;
                     _db.Notes.Update(note);
                 }
@@ -73,7 +74,7 @@ namespace WebNotes.Controllers
                 return RedirectToAction("Grid");
             }
 
-            return View(note);
+            //return View(note);
         }
 
         public IActionResult Delete(int id)
