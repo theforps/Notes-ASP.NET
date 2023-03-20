@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WebNotes.Models
+namespace WebNotes.Models.User
 {
     public class User
     {
@@ -9,6 +9,5 @@ namespace WebNotes.Models
         public string Login { get; set; }
         public string Password { get; set; }
         public DateTime DateOfCreate { get; set; }
-        public string ConfirmPassword { get; set; }
     }
 }

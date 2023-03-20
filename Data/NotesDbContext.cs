@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebNotes.Models;
+using WebNotes.Models.User;
 
 namespace WebNotes.Data
 {

@@ -10,6 +10,6 @@ namespace WebNotes.Models
         public string? Description { get; set; }
         public DateTime CreatedDate { get; set; }
         public int CountOfChanges { get; set; } = 0;
-        public User User { get; set; }
+        public User.User User { get; set; }
     }
 }

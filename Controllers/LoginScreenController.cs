@@ -1,83 +1,143 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
 using WebNotes.Data;
 using WebNotes.Models;
+using WebNotes.Models.User;
 
 namespace WebNotes.Controllers
 {
     public class LoginScreenController : Controller
     {
-        public readonly NotesDbContext _db;
+        private readonly NotesDbContext _db;
         public LoginScreenController(NotesDbContext db)  
         {  
             _db = db;  
         }
 
-        public IActionResult Main()
+        public IActionResult Main(BaseResponse<VMUserRegister>? obj)
         {
+            if (obj.Error == null)
+            {
+                obj = new BaseResponse<VMUserRegister>()
+                {
+                    Error = new Message()
+                };
+            }
 
-            return View();
+            return View(obj);
         }
 
         [HttpGet]
         public IActionResult Login()
         {
-            var obj = new User();
+            var obj = new BaseResponse<VMUserLogin>()
+            {
+                Error = new Message()
+            };
 
             return View(obj);
         }
+        
         [HttpPost]
-        public IActionResult Login(User user)
+        public async Task<IActionResult> Login(VMUserLogin user)
         {
-            var obj = _db.Users;
-
-            foreach (var x in obj)
+            var result = new BaseResponse<VMUserLogin>();
+            var mes = new Message();
+            
+            if (ModelState.IsValid)
             {
-                if (x.Login == user.Login)
+                var obj = await _db.Users
+                    .FirstOrDefaultAsync(x => x.Login == user.Login && 
+                                              x.Password == user.Password);
+
+                if (obj != null)
                 {
-                    if (x.Password == user.Password)
-                    {
-                        WC.Id = x.Id;
-                        return RedirectToAction("Grid", "CollectionOfNotes");
-                    }
-                    return View(user);
+                    WC.Id = obj.Id;
+                    mes.Description = "Пользователь успешно вошел";
+
+                    return RedirectToAction("Grid", "CollectionOfNotes", mes);
                 }
             }
 
-            return View(user);
+            mes.Description = "Неверный логин или пароль";
+            
+            result = new BaseResponse<VMUserLogin>
+            {
+                User = user,
+                Error = mes
+            };
+
+            return View(result);
         }
 
         [HttpGet]
         public IActionResult Register()
         {
-            var obj = new User();
+            var obj = new BaseResponse<VMUserRegister>()
+            {
+                Error = new Message()
+            };
 
             return View(obj);
         }
 
         [HttpPost]
-        public IActionResult Register(User user)
+        public async Task<IActionResult> Register(VMUserRegister user)
         {
-            var obj = _db.Users;
-
-            foreach (var x in obj)
+            var result = new BaseResponse<VMUserRegister>();
+            var response = new User()
             {
-                if (x.Login == user.Login)
+                DateOfCreate = DateTime.Now,
+                Login = user.Login,
+                Password = user.Password
+            };
+
+            if (ModelState.IsValid)
+            {
+                var obj = await _db.Users
+                    .FirstOrDefaultAsync(x => x.Login == response.Login);
+
+                if (obj != null)
                 {
-                    return View(user);
+                    result = new BaseResponse<VMUserRegister>()
+                    {
+                        User = user,
+                        Error = new Message()
+                        {
+                            Description = "Пользователь уже существует"
+                        }
+                    };
+                    
+                    return View(result);
                 }
                 
+                response.DateOfCreate = DateTime.Now;
+                
+                _db.Users.Add(response);
+                await _db.SaveChangesAsync();
+                
+                result = new BaseResponse<VMUserRegister>()
+                {
+                    User = user,
+                    Error = new Message()
+                    {
+                        Description = "Пользователь успешно создан"
+                    }
+                };
+                
+                return RedirectToAction("Main","LoginScreen", result);
             }
-            if (user.Password == user.ConfirmPassword)
+            
+            result = new BaseResponse<VMUserRegister>()
             {
-                user.DateOfCreate = DateTime.Now;
-                _db.Users.Add(user);
-                _db.SaveChanges();
-            }
-            return View("Main");
+                User = user,
+                Error = new Message()
+                {
+                    Description = "Произошла ошибка"
+                }
+            };
+            
+            return View(result);
         }
-
-
     }
 }
