@@ -1,10 +1,14 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "bEsR8nnmtXA8A5V6QMyK9b+6fPjzHgDPemqRURSQ15M=",
 =======
   "Hash": "XLdBpjZHmUK/4lPY3i40Lc7wsYFflfm7LdRc+QVjEs0=",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+  "Hash": "Ry5EFPuaQHatYVY0PMuf2iYZKgXNHtoXlC50XQGqIm0=",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
   "Source": "WebNotes",
   "BasePath": "_content/WebNotes",
   "Mode": "Default",
@@ -15,16 +19,21 @@
       "Name": "WebNotes\\wwwroot",
       "Source": "WebNotes",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebNotes.styles.css",
       "SourceId": "WebNotes",
@@ -36,6 +45,12 @@
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebNotes.styles.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "WebNotes.styles.css",
       "AssetKind": "All",
@@ -47,6 +62,7 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebNotes.styles.css"
     },
     {
@@ -55,6 +71,8 @@
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "OriginalItemSpec": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebNotes.styles.css"
     },
     {
@@ -62,7 +80,10 @@
       "SourceId": "WebNotes",
       "SourceType": "Computed",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "WebNotes.bundle.scp.css",
       "AssetKind": "All",
@@ -74,6 +95,7 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "OriginalItemSpec": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebNotes.bundle.scp.css"
     },
     {
@@ -82,6 +104,8 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "OriginalItemSpec": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebNotes.bundle.scp.css"
     },
     {
@@ -89,7 +113,10 @@
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "css/OwnScreen.css",
       "AssetKind": "All",
@@ -104,6 +131,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\css\\site.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -114,6 +142,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\css\\site.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -128,6 +162,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\favicon.ico",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -138,6 +173,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\favicon.ico",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -152,16 +193,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\image\\9ff769c4b9c77549f2d6d25f332de3a8.jpg",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\image\\9ff769c4b9c77549f2d6d25f332de3a8.jpg",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "image/9ff769c4b9c77549f2d6d25f332de3a8.jpg",
       "AssetKind": "All",
@@ -176,16 +223,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\image\\dobavit.png",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\image\\dobavit.png",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "image/dobavit.png",
       "AssetKind": "All",
@@ -200,16 +253,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\js\\autosize.esm.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\js\\autosize.esm.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "js/autosize.esm.js",
       "AssetKind": "All",
@@ -224,6 +283,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\js\\autosize.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -234,6 +294,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\js\\autosize.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "js/autosize.js",
       "AssetKind": "All",
@@ -248,6 +314,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\js\\autosize.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -258,6 +325,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\js\\autosize.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "js/autosize.min.js",
       "AssetKind": "All",
@@ -272,16 +345,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\js\\site.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\js\\site.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -296,6 +375,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -306,6 +386,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -320,6 +406,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -330,6 +417,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -344,6 +437,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -354,6 +448,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -368,6 +468,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -378,6 +479,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -392,6 +499,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -402,6 +510,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -416,6 +530,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -426,6 +541,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -440,6 +561,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -450,6 +572,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -464,6 +592,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -474,6 +603,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -488,6 +623,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -498,6 +634,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -512,6 +654,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -522,6 +665,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -536,6 +685,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -546,6 +696,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -560,6 +716,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -570,6 +727,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -584,6 +747,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -594,6 +758,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -608,6 +778,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -618,6 +789,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -632,6 +809,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -642,6 +820,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -656,6 +840,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -666,6 +851,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -680,6 +871,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -690,6 +882,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -704,6 +902,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -714,6 +913,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -728,6 +933,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -738,6 +944,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -752,6 +964,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -762,6 +975,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -776,6 +995,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -786,6 +1006,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -800,6 +1026,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -810,6 +1037,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -824,6 +1057,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -834,6 +1068,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -848,6 +1088,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -858,6 +1099,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,6 +1119,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -882,6 +1130,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -896,6 +1150,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -906,6 +1161,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -920,6 +1181,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -930,6 +1192,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -944,6 +1212,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -954,6 +1223,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -968,6 +1243,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -978,6 +1254,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -992,6 +1274,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1002,6 +1285,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1016,6 +1305,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1026,6 +1316,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1040,6 +1336,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1050,6 +1347,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1064,6 +1367,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1074,6 +1378,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1088,6 +1398,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1098,6 +1409,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1112,16 +1429,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1136,16 +1459,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1160,16 +1489,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1184,6 +1519,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1194,6 +1530,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1208,6 +1550,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1218,6 +1561,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1232,6 +1581,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1242,6 +1592,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1256,16 +1612,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1280,16 +1642,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1304,16 +1672,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1328,16 +1702,22 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\",
 =======
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+<<<<<<< HEAD
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1352,6 +1732,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1362,6 +1743,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1376,6 +1763,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1386,6 +1774,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1400,6 +1794,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1410,6 +1805,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1424,6 +1825,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1434,6 +1836,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1448,6 +1856,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1458,6 +1867,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1472,6 +1887,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1482,6 +1898,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1496,6 +1918,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1506,6 +1929,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1520,6 +1949,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1530,6 +1960,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1544,6 +1980,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1554,6 +1991,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1568,6 +2011,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1578,6 +2022,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1592,6 +2042,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1602,6 +2053,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1616,6 +2073,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1626,6 +2084,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1640,6 +2104,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebNotes",
       "SourceType": "Discovered",
@@ -1650,6 +2115,12 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
 >>>>>>> 57473bc2661f7d27f5be11dcb7734cd4acf15378
+=======
+      "Identity": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "WebNotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\C#\\Notes-ASP.NET\\wwwroot\\",
+>>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
       "BasePath": "_content/WebNotes",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
