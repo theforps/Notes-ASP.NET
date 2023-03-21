@@ -10063,24 +10063,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thefo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\thefo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
+      "projectUniqueName": "D:\\Projects\\C#\\Notes-ASP.NET\\WebNotes.csproj",
       "projectName": "WebNotes",
-      "projectPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\WebNotes.csproj",
+      "projectPath": "D:\\Projects\\C#\\Notes-ASP.NET\\WebNotes.csproj",
       "packagesPath": "C:\\Users\\thefo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\",
+      "outputPath": "D:\\Projects\\C#\\Notes-ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\thefo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10148,16 +10143,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Projects\\C# projects\\OwnProjects\\WebNotes\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
