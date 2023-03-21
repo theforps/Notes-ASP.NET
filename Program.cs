@@ -11,18 +11,13 @@ namespace WebNotes
 
             string connection = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<NotesDbContext>(options => options.UseSqlServer(connection));
-<<<<<<< HEAD
+
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
+            builder.Services.AddControllersWithViews();
             
-=======
-
-            builder.Services.AddControllersWithViews();
-
-            var app = builder.Build();
-
->>>>>>> 144d0128ca30893938efdd1dafc2bcf95068bff9
             if (!app.Environment.IsDevelopment())
             {
                 app.UseHsts();
