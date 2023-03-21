@@ -8,22 +8,19 @@ namespace WebNotes.Controllers
 {
     public class LoginScreenController : Controller
     {
-        private readonly NotesDbContext _db;
+        readonly private NotesDbContext _db;
         public LoginScreenController(NotesDbContext db)  
         {  
             _db = db;  
         }
 
-        public IActionResult Main(BaseResponse<VMUserRegister>? obj)
+        public IActionResult Main()
         {
-            if (obj.Error == null)
+            var obj = new BaseResponse<VMUserRegister>()
             {
-                obj = new BaseResponse<VMUserRegister>()
-                {
-                    Error = new Message()
-                };
-            }
-
+                Error = new Message()
+            };
+            
             return View(obj);
         }
 
@@ -53,9 +50,8 @@ namespace WebNotes.Controllers
                 if (obj != null)
                 {
                     WC.Id = obj.Id;
-                    mes.Description = "Пользователь успешно вошел";
 
-                    return RedirectToAction("Grid", "CollectionOfNotes", mes);
+                    return RedirectToAction("Grid", "CollectionOfNotes");
                 }
             }
 
@@ -118,14 +114,14 @@ namespace WebNotes.Controllers
                 
                 result = new BaseResponse<VMUserRegister>()
                 {
-                    User = user,
+                    User = new VMUserRegister(),
                     Error = new Message()
                     {
                         Description = "Пользователь успешно создан"
                     }
                 };
                 
-                return RedirectToAction("Main","LoginScreen", result);
+                return View(result);
             }
             
             result = new BaseResponse<VMUserRegister>()

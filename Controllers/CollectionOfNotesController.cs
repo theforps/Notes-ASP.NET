@@ -5,32 +5,62 @@ using WebNotes.Models;
 
 namespace WebNotes.Controllers
 {
+    using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+    using Models.Notes;
+
     public class CollectionOfNotesController : Controller
     {
-        public readonly NotesDbContext _db;
+        readonly private NotesDbContext _db;
         public CollectionOfNotesController(NotesDbContext db)  
         {  
             _db = db;  
         }
 
+        [HttpGet]
         public IActionResult Grid()
         {
-            if (WC.Id == null || WC.Id == 0)
+            if (WC.Id == 0)
                 return RedirectToAction("Main","LoginScreen");
 
-            var notes = _db.Notes.OrderByDescending(x => x.CreatedDate).Where(x => x.User.Id == WC.Id);
+            var notes = _db.Notes
+                .OrderByDescending(x => x.CreatedDate)
+                .Where(x => x.User.Id == WC.Id);
 
-            return View(notes);
+            var result = new VMNotes() {
+                notes = notes,
+                message = null
+            };
+
+            return View(result);
+        }
+        [HttpPost]
+        public IActionResult Grid(VMNotes note)
+        {
+            if (WC.Id == 0)
+                return RedirectToAction("Main","LoginScreen");
+
+            var notes = _db.Notes
+                .OrderByDescending(x => x.CreatedDate)
+                .Where(x => x.User.Id == WC.Id);
+
+            var result = new VMNotes() {
+                notes = note.notes,
+                message = "Уверены, что хотите выйти?"
+            };
+
+            return View(result);
         }
 
         [HttpGet]
-        public IActionResult Upsert(int? id)
+        public async Task<IActionResult> Upsert(int? id)
         {
-            if (WC.Id == null || WC.Id == 0)
+            if (WC.Id == 0)
                 return RedirectToAction("Main", "LoginScreen");
 
+            var user = await _db.Users.FirstOrDefaultAsync(x => x.Id == WC.Id);
+            
             var obj = new Note { 
-                User =  _db.Users.FirstOrDefault(x => x.Id == WC.Id)
+                User =  user
             };
 
             if (id == null)
@@ -42,7 +72,7 @@ namespace WebNotes.Controllers
                 if (id == 0)
                     return NotFound();
 
-                obj = _db.Notes.Find(id);
+                obj = await _db.Notes.FirstOrDefaultAsync(x => x.User.Id == id);
 
                 if (obj == null)
                     return NotFound();
@@ -54,9 +84,11 @@ namespace WebNotes.Controllers
         [HttpPost]
         public async Task<IActionResult> Upsert(Note note)
         {
-            note.User = await _db.Users.FirstOrDefaultAsync(x => x.Id == WC.Id);
+            var user = await _db.Users.FirstOrDefaultAsync(x => x.Id == WC.Id);
 
-            //if (ModelState.IsValid)
+            note.User = user;
+            
+            if (ModelState.IsValid)
             {
                 if (note.Id == 0) 
                 {
@@ -70,11 +102,11 @@ namespace WebNotes.Controllers
                     note.CountOfChanges += 1;
                     _db.Notes.Update(note);
                 }
-                _db.SaveChanges();
+                await _db.SaveChangesAsync();
                 return RedirectToAction("Grid");
             }
 
-            //return View(note);
+            return View(note);
         }
 
         public IActionResult Delete(int id)

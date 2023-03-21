@@ -6,17 +6,15 @@
     <projectFile pubXmlPath="Properties/PublishProfiles/FTPProfile2.pubxml">WebNotes.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad4ab5f-043b-4571-93a2-244c02dac18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Migrations/20230320204138_updateUserTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Migrations/20230320204138_updateUserTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/User/VMUserRegister.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.EntityFrameworkCore.targets" afterDir="false" />
+    <list default="true" id="ae134ff1-2dea-4e38-b02d-9778382d8364" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Models/Notes/VMNotes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebNotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebNotes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/CollectionOfNotesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CollectionOfNotesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/LoginScreenController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LoginScreenController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/NotesDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NotesDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Migrations/NotesDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Migrations/NotesDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/Note.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Note.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/LoginScreen/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queries.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CollectionOfNotes/Grid.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CollectionOfNotes/Grid.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Main.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/LoginScreen/Main.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/LoginScreen/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
@@ -25,10 +23,6 @@
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.RazorAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -41,18 +35,11 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d9a41d47547e1fe7fe548b21ab4de12cc2671170a023bc8c629017837eb5f4/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/C# projects/Own projects/WebNotes/WebNotes.sln",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/C# projects/Own projects/WebNotes/WebNotes.sln&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\thefo\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\thefo\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebNotes">
     <configuration name="WebNotes: FTPProfile2" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish publish_profile="FTPProfile2.pubxml" pubxml_path="$PROJECT_DIR$/Properties/PublishProfiles/FTPProfile2.pubxml" uuid_high="937226956937710789" uuid_low="-8558137349233796423" />
@@ -142,25 +129,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Views/LoginScreen/Main.cshtml</url>
-          <line>7</line>
-          <properties documentPath="D:\Projects\C# projects\OwnProjects\WebNotes\Views\LoginScreen\Main.cshtml" initialLine="7" isMultiMethodBreakpoint="true">
-            <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

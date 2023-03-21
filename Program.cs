@@ -23,12 +23,6 @@ namespace WebNotes
                 app.UseHsts();
             }
 
-            Queries queries = new Queries();
-            //await queries.querie();
-
-            Procedure procedures = new Procedure();
-            //procedures.procedure();
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
