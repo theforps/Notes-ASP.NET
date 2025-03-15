@@ -1,41 +1,44 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using WebNotes.Data;
 
-namespace WebNotes
+namespace WebNotes;
+
+public static class Program
 {
-    public static class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        var builder = WebApplication.CreateBuilder(args);
+
+        var connection = builder.Configuration.GetSection("ConnectionStrings")["DefaultConnection"];
+        builder.Services.AddDbContext<NotesDbContext>(options => options.UseNpgsql(connection));
+        
+        builder.Services.AddControllersWithViews();
+
+        builder.Services
+            .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options => options.LoginPath = "/Authorization/Main");
+        builder.Services.AddAuthorization();     
+        
+        var app = builder.Build();
+        
+        if (!app.Environment.IsDevelopment())
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            string connection = builder.Configuration.GetConnectionString("DefaultConnection");
-            builder.Services.AddDbContext<NotesDbContext>(options => options.UseSqlServer(connection));
-
-            builder.Services.AddControllersWithViews();
-
-            var app = builder.Build();
-
-            builder.Services.AddControllersWithViews();
-            
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseHsts();
-            }
-
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseRouting();
-
-            app.UseAuthentication();
-            app.UseAuthorization();
-
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=LoginScreen}/{action=Main}/{id?}");
-
-            app.Run();
+            app.UseHsts();
         }
+
+        app.UseHttpsRedirection();
+        app.UseStaticFiles();
+
+        app.UseRouting();
+
+        app.UseAuthentication();
+        app.UseAuthorization();
+
+        app.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Authorization}/{action=Main}/{id?}");
+
+        app.Run();
     }
 }

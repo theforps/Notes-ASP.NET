@@ -1,8 +1,7 @@
-﻿namespace WebNotes.Models.Notes {
-    using Message=NuGet.Protocol.Plugins.Message;
+﻿namespace WebNotes.Models.Notes;
 
-    public class VMNotes {
-        public IQueryable<Note> notes { get; set; }
-        public string? message { get; set; }
-    }
+public class VMNotes {
+    public Note[] notes { get; set; }
+    
+    public string? message { get; set; }
 }

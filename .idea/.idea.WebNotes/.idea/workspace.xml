@@ -5,24 +5,320 @@
     <projectFile profileName="WebNotes">WebNotes.csproj</projectFile>
     <projectFile pubXmlPath="Properties/PublishProfiles/FTPProfile2.pubxml">WebNotes.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae134ff1-2dea-4e38-b02d-9778382d8364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Models/Notes/VMNotes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/AuthorizationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/CollectionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/WebNotes.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/WebNotes.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/WebNotes.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/WebNotes.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/WebNotes.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/WebNotes.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/WebNotes.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/css/OwnScreen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/image/9ff769c4b9c77549f2d6d25f332de3a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/image/dobavit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/js/autosize.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/js/autosize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/js/autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Release/net8.0/publish/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/WebNotes.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/scopedcss/bundle/WebNotes.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/scopedcss/projectbundle/WebNotes.bundle.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.WebNotes.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.build.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net6.0/PublishOutputs.189f243dd2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/PublishOutputs.cfe998cc68.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/WebNotes.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/ref/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/refint/WebNotes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/scopedcss/bundle/WebNotes.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/scopedcss/projectbundle/WebNotes.bundle.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets.publish.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets/msbuild.WebNotes.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets/msbuild.build.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.WebNotes.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebNotes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebNotes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CollectionOfNotesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CollectionOfNotesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/LoginScreenController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LoginScreenController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/CollectionOfNotesController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LoginScreenController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/NotesDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Data/NotesDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20220912185256_addNotesToDb.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20220912185256_addNotesToDb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230118082837_2405812nikitataissgay.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230118082837_2405812nikitataissgay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230118083354_1234.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230118083354_1234.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230127102204_UpdateTables.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230127102204_UpdateTables.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230128142904_UpdateDb.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230128142904_UpdateDb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230129212945_DeleteForeignKey.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230129212945_DeleteForeignKey.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130105723_updateTableUser.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130105723_updateTableUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130155725_updateTableUser2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130155725_updateTableUser2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130160902_updateTableUser3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130160902_updateTableUser3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130171532_update.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230130171532_update.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230201080842_UpdateTables1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230201080842_UpdateTables1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206115157_Add-CountOfChanges-InModel.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206115157_Add-CountOfChanges-InModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120442_Add-CountOfChanges-InModel2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120442_Add-CountOfChanges-InModel2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120714_Add-CountOfChanges-InModel3.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120714_Add-CountOfChanges-InModel3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120942_Add-CountOfChanges-InModel4.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206120942_Add-CountOfChanges-InModel4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206121032_Add-CountOfChanges-InModel5.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206121032_Add-CountOfChanges-InModel5.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206121206_Add-CountOfChanges-InModel6.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230206121206_Add-CountOfChanges-InModel6.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230320204138_updateUserTable.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20230320204138_updateUserTable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/NotesDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Notes/VMNotes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Notes/VMNotes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queries.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/CollectionOfNotes/Grid.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/CollectionOfNotes/Grid.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Main.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/LoginScreen/Main.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/LoginScreen/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CollectionOfNotes/Grid.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Collection/Grid.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/CollectionOfNotes/Upsert.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Collection/Upsert.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Authorization/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Main.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Authorization/Main.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/LoginScreen/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Authorization/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WC.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebNotes.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebNotes.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Humanizer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Humanizer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebNotes.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/Humanizer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/Humanizer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/WebNotes.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/WebNotes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Release/net6.0/publish/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Release/net6.0/publish/wwwroot/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebNotes.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -35,43 +331,104 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/WebNotes.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/ref/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/ref/WebNotes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/refint/WebNotes.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/refint/WebNotes.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.publish.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net6.0/staticwebassets.publish.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebNotes.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/OwnScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/OwnScreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/08338fcaa5c9b9a8190abb99222fed12aaba956c/src/libraries/System.Security.Claims/src/System/Security/Claims/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/08338fcaa5c9b9a8190abb99222fed12aaba956c/src/libraries/System.Security.Claims/src/System/Security/Claims/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/97d8f4cade971b93794a3805e7d72ee388f14c9b/src/libraries/System.Security.Claims/src/System/Security/Claims/ClaimsIdentity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/97d8f4cade971b93794a3805e7d72ee388f14c9b/src/libraries/System.Security.Claims/src/System/Security/Claims/ClaimsPrincipal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6ca0af7ecad94407ae6fa2bce97e9541a24f08/e2/2d446598/IIdentity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2LeWnHL3WSbfdNJ2hIKeS98Okve" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/C# projects/Own projects/WebNotes/WebNotes.sln&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.WebNotes.executor": "Run",
+    ".NET Launch Settings Profile.WebNotes: IIS Express.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Publish to IIS.Publish WebNotes to IIS.executor": "Run",
+    "Publish to folder.Publish WebNotes to folder.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Projects/C# projects/Own projects/WebNotes/WebNotes.sln",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\thefo\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\thefo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\thefo\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebNotes">
+}]]></component>
+  <component name="RunManager" selected="Publish to IIS.Publish WebNotes to IIS">
+    <configuration name="Publish WebNotes to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" target_folder="$PROJECT_DIR$/bin/Release/net6.0/publish" target_framework="net6.0" uuid_high="937226956937710789" uuid_low="-8558137349233796423" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish WebNotes to IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="Any CPU" publish_profile="&lt;no publish profile&gt;" uuid_high="937226956937710789" uuid_low="-8558137349233796423" />
+      <method v="2" />
+    </configuration>
     <configuration name="WebNotes: FTPProfile2" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish publish_profile="FTPProfile2.pubxml" pubxml_path="$PROJECT_DIR$/Properties/PublishProfiles/FTPProfile2.pubxml" uuid_high="937226956937710789" uuid_low="-8558137349233796423" />
       <method v="2" />
@@ -83,7 +440,6 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <browser name="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -107,11 +463,18 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.WebNotes" />
+      <item itemvalue=".NET Launch Settings Profile.WebNotes: IIS Express" />
+      <item itemvalue="Publish to folder.Publish WebNotes to folder" />
+      <item itemvalue="Publish to IIS.Publish WebNotes to IIS" />
+      <item itemvalue="Publish to IIS.WebNotes: FTPProfile2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ad4ab5f-043b-4571-93a2-244c02dac18b" name="Changes" comment="" />
+      <changelist id="ae134ff1-2dea-4e38-b02d-9778382d8364" name="Changes" comment="" />
       <created>1676232194030</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -119,12 +482,15 @@
       <workItem from="1676232195463" duration="526000" />
       <workItem from="1679328982454" duration="4565000" />
       <workItem from="1679343398076" duration="3298000" />
+      <workItem from="1742042948649" duration="177000" />
+      <workItem from="1742043230714" duration="9967000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
